@@ -1,0 +1,71 @@
+<style type="text/css">
+.ss-q-title {
+	font-weight: bold;
+}
+.ss-required-asterisk {
+	color: red;
+}
+</style>
+
+<div class="ss-form-container">
+	<div class="ss-form-heading">
+		<hr class="ss-email-break" style="display:none;">
+		<div class="ss-required-asterisk">
+			* Required
+		</div>
+	</div>
+	<div class="ss-form">
+		<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dEJJa2NQNVNKdGgxNUNSTWlzMnEwZ1E6MQ&amp;embedded=true&amp;ifq" method="post" id="ss-form">
+			<br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-item-required ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_0">Họ đệm <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_0">Nếu tên đầy đủ của bạn là Đinh Thảo Linh thì họ đêm của bạn là Đinh Thảo</label> <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-item-required ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_1">Tên <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_1">Nếu tên đầy đủ của bạn là Đinh Thảo Linh thì tên của bạn là Linh</label> <input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1">
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-item-required ss-radio">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_2">Nam / nữ <span class="ss-required-asterisk">*</span></label>
+						<ul class="ss-choices">
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.2.group" value="Nam" class="ss-q-radio" id="group_2_1"> Nam</label>
+							</li>
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.2.group" value="Nữ" class="ss-q-radio" id="group_2_2"> Nữ</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_4">Email</label> <input type="text" name="entry.4.single" value="" class="ss-q-short" id="entry_4">
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_6">Số điện thoại liên hệ</label> <input type="text" name="entry.6.single" value="" class="ss-q-short" id="entry_6">
+					</div>
+				</div>
+			</div><br>
+			<input type="hidden" name="pageNumber" value="0"> <input type="hidden" name="backupCache" value="">
+			<div class="ss-item ss-navigate">
+				<div class="ss-form-entry">
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
