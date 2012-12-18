@@ -1,57 +1,67 @@
 ---
 layout: default
 ---
-
 <div id="myCarousel" class="carousel slide">
-                <!-- Carousel items -->
-                <div class="carousel-inner">
-                <div class="active item">
-                    <img src="/img/carousel.jpg">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="active item">
+            <img src="/img/carousel.jpg">
+        </div>
+        <div class="item">
+            <img src="/img/carousel.jpg">
+        </div>
+        <div class="item">
+            <img src="/img/carousel.jpg">
+        </div>
+    </div><!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a> <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+</div>
+<div class="container">
+    <div class="row divider">
+        <div class="span3">
+            <strong>CHÚNG TÔI LÀ AI?</strong>
+        </div>
+        <div class="span3 offset1">
+            <strong>CHÚNG TÔI LÀM GÌ?</strong>
+        </div>
+        <div class="span3 offset1">
+            <strong>CHÚNG TÔI BLAH</strong>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span3">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="span3 offset1">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="span3 offset1">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+    <div class="row divider center">
+        <strong>ĐĂNG KÝ THAM DỰ CHƯƠNG TRÌNH</strong>
+    </div>
+    <div>
+        {% include google_form %}
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        Danh sách tham dự</a>
                 </div>
-                <div class="item">
-                    <img src="/img/carousel.jpg">
-                </div>
-                <div class="item">
-                    <img src="/img/carousel.jpg">
-                </div>
-                </div>
-                <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-            </div>   
-            
-            <div class="container">
-                <div class="row divider">
-                    <div class="span3"><strong>CHÚNG TÔI LÀ AI?</strong></div>
-                    <div class="span3 offset1"><strong>CHÚNG TÔI LÀM GÌ?</strong></div>
-                    <div class="span3 offset1"><strong>CHÚNG TÔI BLAH</strong></div>
-                </div>
-                <div class="row">
-                    <div class="span3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-
-                    <div class="span3 offset1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-
-                    <div class="span3 offset1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                </div>
-                <div class="row divider center">
-                    <strong>ĐĂNG KÝ THAM DỰ CHƯƠNG TRÌNH</strong>
-                </div>
-                <div>
-                    {% include google_form %}
+                <div id="collapseOne" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <iframe width='100%' height='450' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0As4GMlKfucQ6dEJJa2NQNVNKdGgxNUNSTWlzMnEwZ1E&single=true&gid=1&output=html&widget=true'></iframe>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
