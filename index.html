@@ -1,5 +1,7 @@
 ---
 layout: default
+title: L'anhoi
+description: Dự án nghệ thuật cộng đồng Lần Hồi - Mượn rung cảm thời gian.
 ---
 <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
@@ -46,22 +48,9 @@ layout: default
         </div>
     </div>
     <div class="row divider center">
-        <strong>ĐĂNG KÝ THAM DỰ CHƯƠNG TRÌNH</strong>
+        <strong>MỌI NGƯỜI NÓI GÌ VỀ LẦN HỒI?</strong>
     </div>
-    <div>
-        {% include google_form %}
-        <div class="accordion" id="accordion2">
-            <div class="accordion-group">
-                <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                        Danh sách tham dự</a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                    <div class="accordion-inner">
-                        <iframe width='100%' height='450' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0As4GMlKfucQ6dEJJa2NQNVNKdGgxNUNSTWlzMnEwZ1E&single=true&gid=1&output=html&widget=true'></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="facebook-wrapper">
+        <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-width="600" data-num-posts="2"></div>
     </div>
 </div>
