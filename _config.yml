@@ -1,5 +1,11 @@
 name: L'anhoi
 description: A community art project.
 url: http://lanhoi.org
-
 permalink: pretty
+prose:
+  rooturl: "news/_posts"
+  metadata:
+  	"news/_posts": |
+  	  title: "title"
+  	  description: "description"
+  	  thumb: "thumb"
