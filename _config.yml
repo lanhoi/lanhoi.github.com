@@ -5,7 +5,7 @@ permalink: pretty
 prose:
   rooturl: "news/_posts"
   metadata:
-  	"news/_posts": |
-  	  title: "title"
-  	  description: "description"
-  	  thumb: "thumb"
+    "news/_posts": |
+      title: "title"
+      description: "description"
+      thumb: "thumb"
