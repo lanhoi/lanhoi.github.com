@@ -1,3 +1,4 @@
+// navbar affix
 $(document).ready(function (){
 	$("#nav-wrapper").height($("#navbar").outerHeight(true))
 	var pos = $('#navbar').offset().top + 20;
@@ -6,6 +7,7 @@ $(document).ready(function (){
 	});
 });
 
+// Facebook comment
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;

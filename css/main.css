@@ -4,7 +4,8 @@
    ========================================================================== */
 
 html, body {
-    font-family : Open Sans;
+    /*font-family : Open Sans;*/
+    font-family: UTM Aptima;
     background-color: #FFFEDF;
 }
 
@@ -15,6 +16,8 @@ body {
     width: 100%;
     padding-top: 0px;
     margin-top: 0;
+    background-image: url("/img/natural_paper.png");
+    background-repeat: repeat;
 }
 
 .container-narrow {
@@ -38,9 +41,15 @@ header {
 header h1 {
     margin-top: 0px;
     margin-bottom: 0;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 100px;
     line-height: 1em;
+}
+
+header h1::selection {
+    background: #FFFEDF;
+    color: #5A2E2E;
 }
 
 header h1::-moz-selection {
@@ -52,20 +61,30 @@ header h1::-moz-selection {
     background-color: #5A2E2E;
     color: #FFFEDF;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 12px;
-    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 4px -3px black;
 }
+
 
 .nav-container .navbar {
     margin: 0 auto;
+    z-index: 888;
 }
 
 .navbar-inner {
     background-image: none;
     background-color: inherit;
     border: 0;
-    min-height: 0px;
+    text-align: center;
+    min-height: 0;
+}
+
+.navbar-inner .nav {
+    width: 558px;
+    margin: 0 auto;
+    float: none;
 }
 
 .navbar .nav > li {
@@ -74,12 +93,20 @@ header h1::-moz-selection {
 
 .navbar .nav > li > a {
     float: none;
-    padding: 3px 10px;
-    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    color: #FFFEDF;
     text-decoration: none;
     font-size: 15px;
     border-top: 2px solid #FFFEDF;
     border-bottom: 2px solid #FFFEDF;    
+}
+
+.navbar .nav > li > a:hover {
+    color: #FFFEDF;
+    font-weight: bold;0
 }
 
 .navbar {
@@ -111,10 +138,20 @@ header h1::-moz-selection {
     padding-bottom: 10px;
 }
 
+/* Content selection color */
+.content *::selection {
+    background: #DFBA69;
+    color: #FFFEDF;
+}
 
 .content *::-moz-selection {
     background: #DFBA69;
     color: #FFFEDF;
+}
+
+.content .divider *::selection {
+    background: #FFFEDF;
+    color: #DFBA69;
 }
 
 .content .divider *::-moz-selection {

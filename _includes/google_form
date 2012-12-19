@@ -9,6 +9,9 @@
 
 <div class="ss-form-container">
 	<div class="ss-form-heading">
+		<h1 class="ss-form-title">
+			Untitled form
+		</h1>
 		<hr class="ss-email-break" style="display:none;">
 		<div class="ss-required-asterisk">
 			* Required
@@ -32,31 +35,121 @@
 				</div>
 			</div><br>
 			<div class="errorbox-good">
-				<div class="ss-item ss-item-required ss-radio">
+				<div class="ss-item ss-radio">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_2">Nam / nữ <span class="ss-required-asterisk">*</span></label>
+						<label class="ss-q-title" for="entry_9">Nam / Nữ</label>
 						<ul class="ss-choices">
 							<li class="ss-choice-item">
-								<label class="ss-choice-label"><input type="radio" name="entry.2.group" value="Nam" class="ss-q-radio" id="group_2_1"> Nam</label>
+								<label class="ss-choice-label"><input type="radio" name="entry.9.group" value="Nam" class="ss-q-radio" id="group_9_1"> Nam</label>
 							</li>
 							<li class="ss-choice-item">
-								<label class="ss-choice-label"><input type="radio" name="entry.2.group" value="Nữ" class="ss-q-radio" id="group_2_2"> Nữ</label>
+								<label class="ss-choice-label"><input type="radio" name="entry.9.group" value="Nữ" class="ss-q-radio" id="group_9_2"> Nữ</label>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div><br>
 			<div class="errorbox-good">
-				<div class="ss-item ss-text">
+				<div class="ss-item ss-item-required ss-text">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_4">Email</label> <input type="text" name="entry.4.single" value="" class="ss-q-short" id="entry_4">
+						<label class="ss-q-title" for="entry_4">Email <span class="ss-required-asterisk">*</span></label> <input type="text" name="entry.4.single" value="" class="ss-q-short" id="entry_4">
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-item-required ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_6">Số điện thoại liên hệ <span class="ss-required-asterisk">*</span></label> <input type="text" name="entry.6.single" value="" class="ss-q-short" id="entry_6">
 					</div>
 				</div>
 			</div><br>
 			<div class="errorbox-good">
 				<div class="ss-item ss-text">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_6">Số điện thoại liên hệ</label> <input type="text" name="entry.6.single" value="" class="ss-q-short" id="entry_6">
+						<label class="ss-q-title" for="entry_11">Đơn vị học tập / công tác</label> <input type="text" name="entry.11.single" value="" class="ss-q-short" id="entry_11">
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-item-required ss-scale">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_7">Số lượng vé bạn đăng ký <span class="ss-required-asterisk">*</span></label>
+						<table border="0" cellpadding="5" cellspacing="0">
+							<tr>
+								<td class="ss-scalenumbers"></td>
+								<td class="ss-scalenumbers">
+									<label class="ss-scalenumber" for="group_7_1">1</label>
+								</td>
+								<td class="ss-scalenumbers">
+									<label class="ss-scalenumber" for="group_7_2">2</label>
+								</td>
+								<td class="ss-scalenumbers">
+									<label class="ss-scalenumber" for="group_7_3">3</label>
+								</td>
+								<td class="ss-scalenumbers">
+									<label class="ss-scalenumber" for="group_7_4">4</label>
+								</td>
+								<td class="ss-scalenumbers">
+									<label class="ss-scalenumber" for="group_7_5">5</label>
+								</td>
+								<td class="ss-scalenumbers"></td>
+							</tr>
+							<tr>
+								<td class="ss-scalerow ss-leftlabel"></td>
+								<td class="ss-scalerow">
+									<input type="radio" name="entry.7.group" value="1" class="ss-q-radio" id="group_7_1">
+								</td>
+								<td class="ss-scalerow">
+									<input type="radio" name="entry.7.group" value="2" class="ss-q-radio" id="group_7_2">
+								</td>
+								<td class="ss-scalerow">
+									<input type="radio" name="entry.7.group" value="3" class="ss-q-radio" id="group_7_3">
+								</td>
+								<td class="ss-scalerow">
+									<input type="radio" name="entry.7.group" value="4" class="ss-q-radio" id="group_7_4">
+								</td>
+								<td class="ss-scalerow">
+									<input type="radio" name="entry.7.group" value="5" class="ss-q-radio" id="group_7_5">
+								</td>
+								<td class="ss-scalerow ss-rightlabel"></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-radio">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_13">Bạn biết đến Lần Hồi qua đâu?</label>
+						<ul class="ss-choices">
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.13.group" value="Facebook" class="ss-q-radio" id="group_13_1"> Facebook</label>
+							</li>
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.13.group" value="Trang web" class="ss-q-radio" id="group_13_2"> Trang web</label>
+							</li>
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.13.group" value="Bạn bè, người thân" class="ss-q-radio" id="group_13_3"> Bạn bè, người thân</label>
+							</li>
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="radio" name="entry.13.group" value="Báo chí" class="ss-q-radio" id="group_13_4"> Báo chí</label>
+							</li>
+							<li class="ss-choice-item">
+								<input type="radio" name="entry.13.group" value="__option__" class="ss-q-radio" id="other_option:13"> <label for="other_option:13">Other:</label> <input type="text" name="entry.13.group.other_option_" value="" class="ss-q-other">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div><br>
+			<div class="errorbox-good">
+				<div class="ss-item ss-checkbox">
+					<div class="ss-form-entry">
+						<label class="ss-q-title" for="entry_17">Bạn đã tham dự chương trình Lần Hồi 1113 chưa?</label>
+						<ul class="ss-choices">
+							<li class="ss-choice-item">
+								<label class="ss-choice-label"><input type="checkbox" name="entry.17.group" value="Đã tham dự" class="ss-q-checkbox" id="group_17_1"> Đã tham dự</label>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div><br>
