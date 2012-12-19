@@ -1,3 +1,11 @@
+---
+layout: none
+---
+
+String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+};
+
 // navbar affix
 $(document).ready(function (){
 	$("#nav-wrapper").height($("#navbar").outerHeight(true))

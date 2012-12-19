@@ -31,6 +31,12 @@ body {
     text-align: center;
 }
 
+* {
+    transition: all 0.45s ease 0s;
+    -moz-transition: all 0.45s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
 
 /* HEADER */
 header {
@@ -67,6 +73,16 @@ header .tagline {
     margin-top: 5px;
 }
 
+header .ornament {
+    height: 50px;
+}
+
+header #brand {
+    background: url("/img/header.png");
+    width: 960px;
+    height: 100px;
+}
+
 .nav-container {
     background-color: #5A2E2E;
     color: #FFFEDF;
@@ -74,7 +90,7 @@ header .tagline {
     padding-top: 8px;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    box-shadow: 0 3px 4px -3px #000;
+    box-shadow: 0 3px 3px -3px #000;
 }
 
 
@@ -85,6 +101,7 @@ header .tagline {
 
 .navbar-inner {
     background-image: none;
+    background-repeat: no-repeat;
     background-color: inherit;
     border: 0;
     text-align: center;
@@ -92,9 +109,9 @@ header .tagline {
 }
 
 .navbar-inner .nav {
-    width: 600px;
     margin: 0 auto;
     float: none;
+    width: 490px;
 }
 
 .navbar .nav > li {
@@ -107,6 +124,7 @@ header .tagline {
     padding-right: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
+    /*margin-bottom: -20px;*/
     color: #FFFEDF;
     font-size: 15px;
 /*    border-top: 1px dotted #FFFEDF;
@@ -169,6 +187,14 @@ header .tagline {
 .content .divider *::-moz-selection {
     background: #FFFEDF;
     color: #DFBA69;
+}
+
+.content a {
+    color: #5A2E2E;
+}
+
+.content a:hover {
+    color: inherit; ;
 }
 
 /* FACEBOOK */
