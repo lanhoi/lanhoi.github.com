@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Chữ viết của người Việt cổ
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
