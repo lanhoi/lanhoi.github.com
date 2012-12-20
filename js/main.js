@@ -6,6 +6,13 @@ String.prototype.endsWith = function(suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
 };
 
+// Carousel
+$(document).ready(function (){
+	$('.carousel').carousel({
+    interval: 8000
+    });
+})
+
 // navbar affix
 $(document).ready(function (){
 	$("#nav-wrapper").height($("#navbar").outerHeight(true))
@@ -23,3 +30,8 @@ $(document).ready(function (){
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+// Registration form ul
+$(document).ready(function() {
+	$("ul.ss-choices").addClass("unstyled");
+});

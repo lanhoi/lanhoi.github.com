@@ -5,6 +5,14 @@
 .ss-required-asterisk {
 	color: red;
 }
+.ss-form-title {
+	display: none;
+}
+
+.ss-q-help {
+	font-style: italic;
+	font-size: 80%;
+}
 </style>
 
 <div class="ss-form-container">

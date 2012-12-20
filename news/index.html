@@ -11,8 +11,7 @@ layout: default
     <article class="center-text">
         <section>
     	  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    	  <p class="date muted"><i><small>{{ post.date | date_to_string }} | 
-            <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a>
+    	  <p class="date muted"><i><small>{{ post.date | date_to_string }}
           {% unless post.tags == empty %}
           &nbsp;&nbsp;|&nbsp;&nbsp;
           {% for tag in post.tags %}
@@ -24,6 +23,7 @@ layout: default
           {{ post.content }}
     	</section>
     </article>
+    <hr class="section">
 {% endfor %}
 
     <!-- Phân trang -->
@@ -42,7 +42,7 @@ layout: default
     <small class="muted">{{ post.date | date_to_string }}</small>
     </p>
     {% endfor %}
-    <hr>
+    <hr class="blog-divider">
     <h5><a href="{{ site.baseurl }}/blog/archive/"/>Archive</a></h5>
     
 </div>
