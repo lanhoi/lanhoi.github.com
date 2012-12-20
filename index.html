@@ -18,7 +18,7 @@ description: Dự án nghệ thuật cộng đồng Lần Hồi - Mượn rung c
                 <div class="row">
                     <div class="span8"><img src="/img/carousel.jpg"></div>
                     <div class="span4">
-                        <h2>{{ post.title }}</h2>
+                        <h2><a href="{{ post.url }}" class="whatsnew">{{ post.title }}</a></h2>
                         <p>
                             {{ post.content | truncate:300 }}
                         </p>

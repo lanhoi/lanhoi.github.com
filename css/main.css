@@ -182,8 +182,14 @@ header .brand {
 }
 
 .carousel a {
-    color: white;
+    color: inherit !important;
 }
+
+.carousel a:hover {
+    color: #5A2E2E !important;
+}
+
+
 
 .carousel h2 {
     font-size: 40px;
@@ -232,12 +238,13 @@ header .brand {
     color: #DFBA69;
 }
 
+
 .content a {
     color: #5A2E2E;
 }
 
 .content a:hover {
-    color: inherit; ;
+    color: inherit;
 }
 
 /* FACEBOOK */
