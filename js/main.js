@@ -6,6 +6,29 @@ String.prototype.endsWith = function(suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
 };
 
+
+    //Tự động add class active cho menu khi ở các trang khác nhau
+    var path_name = location.pathname;
+    
+    var page = path_name.split("/")[1];
+    switch(page) {
+        case 'join':
+            $('#join').addClass('active');
+            break;
+        case 'contact':
+            $('#contact').addClass('active');
+            break;
+        case 'news':
+            $('#news').addClass('active');
+            break;
+        case 'press':
+            $('#press').addClass('active');
+            break;
+        default:
+            $('#home').addClass('active');
+            break;
+    }
+
 // Carousel
 $(document).ready(function (){
 	$('.carousel').carousel({
