@@ -79,6 +79,12 @@ header .brand {
     margin-left: -45px;
 }
 
+header .brand img {
+    /* Chrome/Webkit fix */
+    height: 161px;
+    width: 284px;
+}
+
 .tagline {
     margin-bottom: 12px;
 }
