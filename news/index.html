@@ -4,14 +4,13 @@ title: Lần Hồi
 ---
 
 <div class="row">
-
 <div class="span8">
 
 <!-- Lặp để lấy 3 post gần đây nhất -->
-{% for post in site.posts limit: 3 %}
+{% for post in site.posts %}
     <article class="center-text">
         <section>
-          <div class="center">
+            <div class="center">
                 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                 <p class="date muted"><i><small>{{ post.date | date_to_string }}
                   {% unless post.tags == empty %}
@@ -22,19 +21,24 @@ title: Lần Hồi
                   {% endunless %}
                   </small></i>
                   </p>
-          </div>
-
-          {{ post.content }}
-    	</section>
+            </div>
+            <div class="row">
+                <div class="span4 postimage">
+                    <img src="{{ post.thumb }}">
+                </div>
+                <p class="lead">{{ post.lead }}</p>
+                <p>{{ post.content | truncate:500 }}</p>
+            </div>
+        </section>
     </article>
     <hr class="section">
 {% endfor %}
 
-    <!-- Phân trang -->
-    <ul class="pager">
-        <li class="previous"><a href="#">Older</a></li>
-        <li class="next disabled"><a href="#">Newer</a></li>
-    </ul>
+<!-- Phân trang -->
+<ul class="pager">
+    <li class="previous"><a href="#">Older</a></li>
+    <li class="next disabled"><a href="#">Newer</a></li>
+</ul>
 
 </div>
 <div class="span3 offset1">
