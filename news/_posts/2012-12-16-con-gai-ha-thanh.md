@@ -1,6 +1,11 @@
 ---
 layout: post
-title: Con gái Hà Thành
+title: "Con gái Hà Thành"
+lead: "Sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure d"
+thumb: http://upload.wikimedia.org/wikipedia/commons/8/85/Image-New_Delhi_Lotus.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
