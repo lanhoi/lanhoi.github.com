@@ -932,7 +932,8 @@
   }
 }
 
-@media (max-width: 979px) {
+/*@media (max-width: 979px) {*/
+@media (max-width: 639px) {  
   body {
     padding-top: 0;
   }

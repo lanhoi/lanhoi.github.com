@@ -5,8 +5,15 @@
 
 html, body {
     /*font-family : Open Sans;*/
-    font-family: UTM Aptima;
-    font-size: 14px;
+    /*font-family: UTM Aptima;*/
+    /*font-family: Didot LT Std;*/
+    /*font-family: UTM Centur;*/
+    /*font-family: Baskerville;*/
+    /*font-family: Lucida Grand*/
+    /*font-family: Bitstream Vera Serif;*/
+    font-family: Droid Serif;
+    font-size: 16px;
+    line-height: 1.5em;
     background-color: #FFFEDF;
     min-height: 100%;
 }
@@ -20,6 +27,8 @@ body {
     margin-top: 0;
     background-image: url("/img/natural_paper.png");
     background-repeat: repeat;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .container-narrow {
@@ -67,6 +76,8 @@ header .tagline {
     border-top: 1px solid;
     border-bottom: 1px solid;
     margin-top: 5px;
+    font-size: 12px;
+    padding-left: 40px;
 }
 
 header .ornament {
@@ -76,7 +87,7 @@ header .ornament {
 header .brand {
     padding-top: 15px;
     margin-bottom: -50px;
-    margin-left: -45px;
+    /*margin-left: -45px;*/
 }
 
 header .brand img {
@@ -87,6 +98,7 @@ header .brand img {
 
 .tagline {
     margin-bottom: 12px;
+    font-family: UTM Aptima;
 }
 
 .tagline .row {
@@ -130,7 +142,7 @@ header .brand img {
     margin-left: 10px;
 }
 
-.navbar .nav > li > a {
+.navbar .nav > li > a, .menu-toggle {
     float: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -143,9 +155,11 @@ header .brand img {
     border-bottom: 1px dotted #FFFEDF;*/
     text-shadow: none;
     font-weight: bold;
+    font-family: UTM Aptima;
 }
 
-.navbar .nav > li > a:hover {
+.navbar .nav > li > a:hover,
+.menu-toggle:hover {
     background-color: #FFFEDF;
     color: #5A2E2E;
     font-weight: bold;
@@ -155,11 +169,25 @@ header .brand img {
     margin: 0 auto;
 }
 
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+a.menu-toggle {
     background-color: #FFFEDF;
     color: #5A2E2E;
     font-weight: bold;
     box-shadow: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 639px) {
+    .menu-toggle {
+        display: inline;
+        float: right;
+    }
 }
 
 .affix {
@@ -171,34 +199,16 @@ header .brand img {
     z-index: 999;
 }
 
+
 /* CAROUSEL */
 #myCarousel {
     margin: 0 auto 20px auto;
 }
 
-.carousel-control {
-  position: absolute;
-  top: 20%;
-  left: 15px;
-  width: 60px;
-  height: 60%;
-  font-size: 60px;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #333;
-  border: 0;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-  opacity: 0.0;
-  filter: alpha(opacity=0);
-}
-
-.carousel-control:hover {
-  text-decoration: none;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+.carousel .carousel-control-wrapper {
+    height: 350px;
+    margin-top: -350px;
+    position: relative;
 }
 
 .carousel a {
@@ -208,8 +218,6 @@ header .brand img {
 .carousel a:hover {
     color: #5A2E2E !important;
 }
-
-
 
 .carousel h2 {
     font-size: 40px;
@@ -221,9 +229,16 @@ header .brand img {
 }
 
 .carousel p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4em;
     margin-bottom: 1em;
+}
+
+.carousel img {
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /* INFO */
@@ -237,6 +252,7 @@ header .brand img {
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 3px 3px 5px -4px #000;
+    font-family: UTM Aptima;
 }
 
 /* Content selection color */
@@ -339,4 +355,19 @@ footer {
 .initialism {
   font-size: 80%;
   text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: UTM Aptima;
+}
+
+.postimage {
+    margin: 10px 10px 10px 0px;
+}
+
+.lead {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4em;
 }

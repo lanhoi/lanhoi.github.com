@@ -6,7 +6,10 @@ description: Dự án nghệ thuật cộng đồng Lần Hồi - Mượn rung c
 
 <div class="container">
 
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide hidden-phone">
+
+
+
         <!-- Carousel items -->
         <div class="carousel-inner">
             {% for post in site.posts limit: 3 %}
@@ -16,54 +19,76 @@ description: Dự án nghệ thuật cộng đồng Lần Hồi - Mượn rung c
             <div class="item">
             {% endif %}
                 <div class="row">
-                    <div class="span8"><img src="/img/carousel.jpg"></div>
+                    <div class="span8">
+                        <img src="{{ post.thumb }}" class="img-polaroid">
+
+                    </div>
                     <div class="span4">
                         <h2><a href="{{ post.url }}" class="whatsnew">{{ post.title }}</a></h2>
                         <p>
-                            {{ post.content | truncate:300 }}
+                            {{ post.lead | truncate:200 }}
                         </p>
                         <a href="{{ post.url }}">Đọc tiếp...</a>
                     </div>
                 </div>
             </div>
             {% endfor %}
-        </div><!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+        </div>
+        <div class="row">
+            <div class="span8 carousel-control-wrapper">
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+            </div>
+        </div>
     </div>
 
-    <div class="row divider" id="us">
-        <div class="span3">
-            <strong>CHÚNG TÔI LÀ AI?</strong>
-        </div>
-        <div class="span3 offset1">
-            <strong>CHÚNG TÔI LÀM GÌ?</strong>
-        </div>
-        <div class="span3 offset1">
-            <strong>CHÚNG TÔI BLAH</strong>
-        </div>
+
+<div class="row divider hidden-phone" id="us">
+    <div class="span3">
+        <strong>CHÚNG TÔI LÀ AI?</strong>
     </div>
-    <div class="row">
-        <div class="span3">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="span3 offset1">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="span3 offset1">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
+    <div class="span3 offset1">
+        <strong>CHÚNG TÔI LÀM GÌ?</strong>
     </div>
+    <div class="span3 offset1">
+        <strong>CHÚNG TÔI BLAH</strong>
+    </div>
+</div>
+
+<div class="row">
+<div class="span3">
+    <div class="divider visible-phone center">
+        <strong>CHÚNG TÔI LÀ AI?</strong>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</div>
+<div class="span3 offset1">
+    <div class="divider visible-phone center">
+        <strong>CHÚNG TÔI LÀM GÌ?</strong>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</div>
+<div class="span3 offset1">
+    <div class="divider visible-phone center">
+        <strong>CHÚNG TÔI BLAH</strong>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</div>
+</div>
+
     <div class="row divider center">
         <strong>MỌI NGƯỜI NÓI GÌ VỀ LẦN HỒI?</strong>
     </div>
     <div class="facebook-wrapper">
-        <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-width="600" data-num-posts="2" data-order-by="reverse_time"></div>
+        <div class="fb-comments" data-href="{{site.url}}{{page.url}}"
+            data-width="600" data-num-posts="2" data-order-by="reverse_time"
+            mobile="true" >
+        </div>
     </div>
 </div>
