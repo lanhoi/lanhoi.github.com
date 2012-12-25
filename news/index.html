@@ -7,11 +7,11 @@ title: Lần Hồi
 <div class="span8">
 
 <!-- Lặp để lấy 3 post gần đây nhất -->
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
     <article class="center-text">
         <section>
             <div class="center">
-                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
                 <p class="date muted"><i><small>{{ post.date | date_to_string }}
                   {% unless post.tags == empty %}
                   &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -24,34 +24,42 @@ title: Lần Hồi
             </div>
             <div class="row">
                 <div class="span4 postimage">
-                    <img src="{{ post.thumb }}">
+                    <img src="{{ post.thumb }}" class="img-polaroid">
                 </div>
-                <p class="lead">{{ post.lead }}</p>
-                <p>{{ post.content | truncate:500 }}</p>
+                <p class="lead">
+                    {{ post.lead | truncate:210 }}
+                </p>
+                <a href="{{ post.url }}" class="pull-right">(đọc tiếp)</a>
             </div>
         </section>
     </article>
+    {% unless forloop.last %}
     <hr class="section">
+    {% else %}
+    <hr class="blog-divider">
+    <h6><a href="/news/archive/" class="pull-right"/>XEM TẤT CẢ CÁC BÀI VIẾT</a></h6>
+    {% endunless %}
 {% endfor %}
 
 <!-- Phân trang -->
-<ul class="pager">
+<!-- <ul class="pager">
     <li class="previous"><a href="#">Older</a></li>
     <li class="next disabled"><a href="#">Newer</a></li>
-</ul>
+</ul> -->
 
 </div>
-<div class="span3 offset1">
-    <h6>Recent posts</h6>
+<div class="span3 offset1 hidden-phone">
+    <hr class="blog-divider">
+    <h6>CÁC BÀI VIẾT GẦN ĐÂY</h6>
     <!-- Tóm tắt 10 post gần đây nhất -->
     {% for post in site.posts limit: 10 %}
     <p>
     <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
-    <small class="muted">{{ post.date | date_to_string }}</small>
+    <!-- <small class="muted">{{ post.date | date_to_string }}</small> -->
     </p>
     {% endfor %}
     <hr class="blog-divider">
-    <h5><a href="{{ site.baseurl }}/blog/archive/"/>Archive</a></h5>
+    <h6><a href="/news/archive/"/>TẤT CẢ CÁC BÀI VIẾT</a></h6> 
     
 </div>
 </div>

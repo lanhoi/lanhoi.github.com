@@ -307,11 +307,12 @@ hr.fleur {
 
 hr.section {
     background: url("/img/section.png");
+    background-size: 30px;
     background-repeat: no-repeat;
     background-position: center top;
     display: block;
-    width: 100px;
-    height: 11px;
+    width: 50px;
+    height: 10px;
     border-top: 0;
     /*padding-bottom: 20px;
     border-bottom: 3px dotted #5A2E2E;*/
@@ -362,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .postimage {
-    margin: 10px 10px 10px 0px;
+    margin: 0px 20px 10px 0px;
 }
 
 .lead {
