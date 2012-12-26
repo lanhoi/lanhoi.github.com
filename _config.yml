@@ -6,6 +6,9 @@ prose:
   rooturl: "news/_posts"
   metadata:
     "news/_posts": |
-      title: "title"
-      description: "description"
-      thumb: "thumb"
+      layout: post
+      title: "tiêu đề"
+      description: "miêu tả ngắn gọn"
+      thumb: "link ảnh minh họa"
+      lead: "đoạn mở đầu"
+      published: false
