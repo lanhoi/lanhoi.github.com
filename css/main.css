@@ -121,6 +121,7 @@ header.main-header .brand {
     background-image: none;
     background-repeat: no-repeat;
     background-color: inherit;
+    filter: none;
     border: 0;
     text-align: center;
     min-height: 0;
