@@ -50,7 +50,7 @@ body {
 }
 
 /* HEADER */
-header {
+header.main-header {
     /*background-color: #5A2E2E;*/
     background-image: url("/img/fleur-pattern.png");
     background-position: left bottom;
@@ -58,32 +58,32 @@ header {
     padding-bottom: 5px;
 }
 
-header *::selection {
+header.main-header *::selection {
     background: #FFFEDF;
     color: #5A2E2E;
 }
 
-header *::-moz-selection {
+header.main-header *::-moz-selection {
     background: #FFFEDF;
     color: #5A2E2E;
 }
 
-header h4 {
+header.main-header h4 {
     margin: 5px;
 }
 
-header .tagline {
+header.main-header .tagline {
     border-top: 1px solid;
     border-bottom: 1px solid;
     font-size: 12px;
     padding-left: 40px;
 }
 
-header .ornament {
+header.main-header .ornament {
     height: 50px;
 }
 
-header .brand {
+header.main-header .brand {
     padding-top: 15px;
     margin-bottom: -50px;
     min-height: 161px;
