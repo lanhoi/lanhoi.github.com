@@ -87,13 +87,8 @@ header .ornament {
 header .brand {
     padding-top: 15px;
     margin-bottom: -50px;
+    min-height: 161px;
     /*margin-left: -45px;*/
-}
-
-header .brand a {
-    /* Chrome/Webkit fix */
-    height: 161px;
-    width: 284px;
 }
 
 .tagline {

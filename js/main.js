@@ -38,8 +38,9 @@ $(document).ready(function (){
 
 // navbar affix
 $(document).ready(function (){
-	$("#nav-wrapper").height($("#navbar").outerHeight(true))
-	var pos = $('#navbar').offset().top + 20;
+	$("#nav-wrapper").height($("#navbar").outerHeight(true));
+	var pos = Math.ceil($('#navbar').offset().top) + 20;
+    alert(pos);
 	$('#navbar').affix({
     	offset: pos
 	});
