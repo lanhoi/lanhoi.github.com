@@ -90,7 +90,7 @@ header .brand {
     /*margin-left: -45px;*/
 }
 
-header .brand img {
+header .brand object {
     /* Chrome/Webkit fix */
     height: 161px;
     width: 284px;
