@@ -1,15 +1,16 @@
 {% capture desc %}
-    {% if page.description != empty %}
+    {% if page.description != null %}
     {{ page.description }}
-    {% elsif page.lead != empty %}
+    {% elsif page.lead != null %}
     {{ page.lead }}
+    shit
     {% else %}
     {{ site.description }}
     {% endif %}
 {% endcapture %}
 
 {% capture title %}
-    {% if page.title != empty %}
+    {% if page.title != null %}
     {{ page.title }}
     {% else %}
     {{ site.name }}
