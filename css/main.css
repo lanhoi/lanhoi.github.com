@@ -50,9 +50,17 @@ body {
 }
 
 /* HEADER */
+
+.svg header.main-header {
+    background-image: url("/img/fleur-pattern.svg");
+}
+
+.no-svg header.main-header {
+    background-image: url("/img/fleur-pattern.png");
+}
+
 header.main-header {
     /*background-color: #5A2E2E;*/
-    background-image: url("/img/fleur-pattern.png");
     background-position: left bottom;
     color: #FFFEDF;
     padding-bottom: 5px;
@@ -100,9 +108,16 @@ header.main-header .brand {
     padding-bottom: 5px;
 }
 
+.svg .nav-container {
+    background-image: url("/img/fleur-pattern.svg");
+}
+
+.no-svg .nav-container {
+    background-image: url("/img/fleur-pattern.png");
+}
+
 .nav-container {
     /*background-color: #5A2E2E;*/
-    background-image: url("/img/fleur-pattern.png");
     color: #FFFEDF;
     width: 100%;
     padding-top: 4px;
@@ -237,9 +252,17 @@ a.menu-toggle {
 }
 
 /* INFO */
+
+.svg .divider {
+    background-image: url("/img/fleur-pattern.svg");
+}
+
+.no-svg .divider {
+    background-image: url("/img/fleur-pattern.png");
+}
+
 .divider {
     /*background-color: #5A2E2E;*/
-    background-image: url("/img/fleur-pattern.png");
     color: #FFFEDF;
     margin-bottom: 20px;
     margin-top: 20px;
