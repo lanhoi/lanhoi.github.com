@@ -25,9 +25,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>{{ title }}</title>
         <meta name="description" content="{{ desc }}"/>
 
+        <meta property="fb:app_id" content="421608437910874"/>
         <meta property="og:site_name" content="{{ site.name }}" />
         <meta property="og:title" content="{{ title }}" />
         <meta property="og:description" content="{{ desc }}" />
@@ -39,12 +42,13 @@
         {% else %}
         "{{ site.url }}/img/logo.png"
         {% endif %}/>
+        
+        <link rel="alternate" type="application/rss+xml" 
+            title="RSS Feed"
+            href="/feed/"/>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="fb:app_id" content="421608437910874"/>
         <link rel="stylesheet" href="/css/bootstrap.css">
-        <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/fonts/aptima/stylesheet.css">
         <link rel="stylesheet" href="/css/fonts/droid-serif/stylesheet.css">
