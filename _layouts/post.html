@@ -3,43 +3,54 @@ layout: default
 ---
 
 <div class="row">
-	<div class="span10 offset1">
-		<article>
-		    <header>
-		        <div class="center">
-		            <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-		            <p class="date muted">
-		            	<i><small>
-		            		{{ page.date | date_to_string }}
-			              	{% unless page.tags == empty %}
-			              	&nbsp;&nbsp;|&nbsp;&nbsp;
-			              	{% for tag in page.tags %}
-			                <a href="#" class="no-border">{{ tag }}</a>
-			              	{% endfor %}
-			              	{% endunless %}
-		              	</small></i>
-		          	</p>
-		        </div>
-		    </header>
+    <div class="span10 offset1">
+        <article>
+            <header>
+                <div class="center">
+                    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+                    <p class="date muted">
+                        <i><small>
+                            {{ page.date | date_to_string }}
+                            {% unless page.tags == empty %}
+                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                            {% for tag in page.tags %}
+                            <a href="#" class="no-border">{{ tag }}</a>
+                            {% endfor %}
+                            {% endunless %}
+                        </small></i>
+                    </p>
+                </div>
+            </header>
 
-		    <div class="row">
-		        <div class="span4 postimage">
-		            <img src="{{ page.thumb }}" class="img-polaroid">
-		        </div>
-		        <p class="lead">
-		            {{ page.lead }}
-		        </p>
-		        <p>
-		        	{{ content }}
-		       	</p>
-		       	<hr class="section">
-		       	<div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-send="true" data-width="800" data-show-faces="true" data-font="lucida grande">
-		       	</div>
+            <div class="row">
+                <div class="span4 postimage">
+                    <img src="{{ page.thumb }}" class="img-polaroid">
+                </div>
+                <p class="lead">
+                    {{ page.lead }}
+                </p>
+                <p>
+                    {{ content }}
+                </p>
+                <hr class="section">
+                {% unless page.previous == null %}
+                <a href="{{ page.previous.url }}" class="btn post-nav">Bài viết cũ hơn</a>
+                {% else %}
+                <a class="btn post-nav disabled">Không có bài viết cũ hơn</a>
+                {% endunless %}
 
-		       	<div class="fb-comments" data-href="{{site.url}}{{page.url}}"
-		       	    data-width="800" data-num-posts="2" data-order-by="reverse_time" >
-		       	</div>
-		    </div>
-		</article>
-	</div>
+                {% unless page.next == null %}
+                <a href="{{ page.next.url }}" class="btn post-nav pull-right">Bài viết mới hơn</a>
+                {% else %}
+                <a class="btn post-nav pull-right disabled">Không có bài viết mới hơn</a>
+                {% endunless %}
+                <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-send="true" data-width="800" data-show-faces="true">
+                </div>
+
+                <div class="fb-comments" data-href="{{site.url}}{{page.url}}"
+                    data-width="800" data-num-posts="2" data-order-by="reverse_time" >
+                </div>
+            </div>
+        </article>
+    </div>
 </div>
