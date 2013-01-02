@@ -1,22 +1,5 @@
-{% capture desc %}
-    {% if page.description != null %}
-    {{ page.description }}
-    {% elsif page.lead != null %}
-    {{ page.lead }}
-    shit
-    {% else %}
-    {{ site.description }}
-    {% endif %}
-{% endcapture %}
-
-{% capture title %}
-    {% if page.title != null %}
-    {{ page.title }}
-    {% else %}
-    {{ site.name }}
-    {% endif %}
-{% endcapture %}
-
+{% capture desc %}{% if page.description != null %}{{ page.description }}{% elsif page.lead != null %}{{ page.lead }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+{% capture title %}{% if page.title != null %}{{ page.title }}{% else %}{{ site.name }}{% endif %}{% endcapture %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -36,16 +19,9 @@
         <meta property="og:description" content="{{ desc }}" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <meta property="og:image" content=
-        {% if page.thumb != null %}
-        "{{ page.thumb }}"
-        {% else %}
-        "{{ site.url }}/img/logo.png"
-        {% endif %}/>
+        <meta property="og:image" content={% if page.thumb != null %}"{{ page.thumb }}"{% else %}"{{ site.url }}/img/logo.png"{% endif %}/>
         
-        <link rel="alternate" type="application/rss+xml" 
-            title="RSS Feed"
-            href="/feed/"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/"/>
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/bootstrap-responsive.css">
@@ -56,15 +32,6 @@
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 9]>
-            <p class="chromeframe">
-                Bạn đang dùng một trình duyệt <strong>quá cũ</strong>.
-                Xin hãy <a href="http://browsehappy.com/">nâng cấp trình duyệt</a> hoặc
-                <a href="http://firefox.com">tải Firefox</a>
-                để có được trải nghiệm tốt nhất.
-            </p>
-        <![endif]-->
-
         <header class="center main-header">
             <div class="brand">
                 <!-- <a href="/"><img src="/img/header.svg"></a> -->
@@ -105,12 +72,20 @@
             </div>
         </div>
         <div class="container content">
+            <!--[if lt IE 9]>
+                <p class="chromeframe text-error">
+					<span class="btn btn-danger">Cảnh báo:</span>
+                    Bạn đang dùng một trình duyệt <strong>quá cũ</strong>.
+                    Xin hãy <a href="http://browsehappy.com/">nâng cấp trình duyệt</a> hoặc
+                    <a href="http://firefox.com">tải Firefox</a>
+                    để có được trải nghiệm tốt nhất.
+                </p>
+            <![endif]-->
             {{ content }}
         </div> 
 
         <div id="push"></div>
 
-        <!-- <hr class="fleur"> -->
         <footer>
             <div class="container">
                 <div class="row-fluid footer-row">
@@ -123,12 +98,12 @@
                 </div>
             </div>
         </footer>
+
         <div id="fb-root"></div>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-
         <script src="/js/vendor/bootstrap.min.js"></script>
-
         <script src="/js/main.js"></script>
 
         <script>
