@@ -98,6 +98,10 @@ header.main-header .brand {
     /*margin-left: -45px;*/
 }
 
+header.main-header .brand object {
+    min-height: 161px;
+}
+
 .tagline {
     margin-bottom: 12px;
     font-family: UTM Aptima;
