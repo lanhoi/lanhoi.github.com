@@ -1,7 +1,9 @@
 
 /* ==========================================================================
-   Author's custom styles
+   Author's ntustom styles
    ========================================================================== */
+
+/*------------------- MISC -------------------*/
 
 html, body {
     /*font-family: Open Sans;*/
@@ -11,7 +13,7 @@ html, body {
     /*font-family: Baskerville;*/
     /*font-family: Lucida Grand*/
     /*font-family: Bitstream Vera Serif;*/
-    font-family: Droid Serif, serif;
+    font-family: "Droid Serif", serif;
     font-size: 16px;
     line-height: 1.5em;
     background-color: #FFFEDF;
@@ -29,6 +31,10 @@ body {
     background-repeat: repeat;
     padding-left: 0;
     padding-right: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: UTM Aptima;
 }
 
 .container-narrow {
@@ -49,7 +55,41 @@ body {
     -o-transition: all 0.4s ease 0s;
 }
 
-/* HEADER */
+/* Content selection color */
+.content *::selection {
+    background: #DFBA69;
+    color: #FFFEDF;
+}
+
+.content *::-moz-selection {
+    background: #DFBA69;
+    color: #FFFEDF;
+}
+
+.content .divider *::selection {
+    background: #FFFEDF;
+    color: #DFBA69;
+}
+
+.content .divider *::-moz-selection {
+    background: #FFFEDF;
+    color: #DFBA69;
+}
+
+
+.content a {
+    color: #5A2E2E;
+}
+
+.content a:hover {
+    color: inherit;
+}
+
+
+
+/*------------------- HEADER -------------------*/
+
+
 
 .svg header.main-header {
     background-image: url("/img/fleur-pattern.svg");
@@ -120,6 +160,12 @@ header.main-header .brand object {
     background-image: url("/img/fleur-pattern.png");
 }
 
+
+
+/*------------------- NAVBAR -------------------*/
+
+
+
 .nav-container {
     /*background-color: #5A2E2E;*/
     color: #FFFEDF;
@@ -129,7 +175,6 @@ header.main-header .brand object {
     margin-bottom: 30px;
     box-shadow: 0 3px 3px -3px #000, 0 -3px 10px -5px #333 inset;
 }
-
 
 .nav-container .navbar {
     margin: 0 auto;
@@ -214,7 +259,11 @@ a.menu-toggle {
 }
 
 
-/* CAROUSEL */
+
+/*------------------- CAROUSEL -------------------*/
+
+
+
 #myCarousel {
     margin: 0 auto 20px auto;
 }
@@ -255,7 +304,36 @@ a.menu-toggle {
     display: block;
 }
 
-/* INFO */
+
+
+/*------------------- ABOUT US -------------------*/
+
+
+
+@media (min-width: 980px) {
+    p.who_we_are {
+        padding-right: 30px;
+        text-align: right;
+    }
+
+    div.what_we_do {
+        margin-left: 0px;
+        padding-left: 30px;
+        border-left: 3px dotted #5A2E2E;
+    }
+
+    #us .span4 {
+        text-align: right;
+    }
+
+    #us .span4 strong {
+        padding-right: 30px;
+    }
+
+    #us .span6 {
+        margin-left: 30px;
+    }
+}
 
 .svg .divider {
     background-image: url("/img/fleur-pattern.svg");
@@ -275,47 +353,14 @@ a.menu-toggle {
     padding-bottom: 10px;
     box-shadow: 3px 3px 5px -4px #000;
     font-family: UTM Aptima;
-}
-
-/* Content selection color */
-.content *::selection {
-    background: #DFBA69;
-    color: #FFFEDF;
-}
-
-.content *::-moz-selection {
-    background: #DFBA69;
-    color: #FFFEDF;
-}
-
-.content .divider *::selection {
-    background: #FFFEDF;
-    color: #DFBA69;
-}
-
-.content .divider *::-moz-selection {
-    background: #FFFEDF;
-    color: #DFBA69;
+    /*width: 980px;*/
 }
 
 
-.content a {
-    color: #5A2E2E;
-}
 
-.content a:hover {
-    color: inherit;
-}
+/*------------------- BLOG -------------------*/
 
-/* FACEBOOK */
-.fb-comments {
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.facebook-wrapper {
-    text-align: center;
-}
 
 hr.fleur {
     background: url("/img/fleurdelis2.png");
@@ -354,7 +399,28 @@ hr.blog-divider {
     border-top: 0;
 }
 
-/* FOOTER */
+.postimage {
+    margin-right: 20px;
+}
+
+.lead {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.btn.post-nav {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+
+
+/*------------------- FOOTER -------------------*/
+
+
+
 footer {
 
     z-index: 2;
@@ -375,27 +441,17 @@ footer {
     height: 140px;
 }
 
-.initialism {
-  font-size: 80%;
-  text-transform: uppercase;
+
+
+/*------------------- FACEBOOK -------------------*/
+
+
+
+.fb-comments {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: UTM Aptima;
-}
-
-.postimage {
-    margin: 0px 20px 10px 0px;
-}
-
-.lead {
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.4em;
-}
-
-.btn.post-nav {
-    margin-top: -10px;
-    margin-bottom: 15px;
+.facebook-wrapper {
+    text-align: center;
 }
