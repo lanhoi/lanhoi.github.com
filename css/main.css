@@ -187,14 +187,27 @@ header.main-header .brand object {
     background-color: inherit;
     filter: none;
     border: 0;
-    text-align: center;
     min-height: 0;
 }
 
 .navbar-inner .nav {
     margin: 0 auto;
     float: none;
-    width: 490px;
+}
+
+@media (min-width: 640px) {
+    .navbar-inner {
+        text-align: center;
+    }
+
+    .navbar-inner .nav {
+        display: inline-block;
+        line-height: 0;
+    }
+
+    .navbar-inner .nav-collapse.collapse {
+        line-height: 0;
+    }
 }
 
 .navbar .nav > li {
@@ -205,16 +218,17 @@ header.main-header .brand object {
     float: none;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    /*margin-bottom: -20px;*/
     color: #FFFEDF;
     font-size: 15px;
-/*    border-top: 1px dotted #FFFEDF;
-    border-bottom: 1px dotted #FFFEDF;*/
     text-shadow: none;
     font-weight: bold;
     font-family: UTM Aptima;
+    text-align: left;
+}
+
+.menu-toggle {
+    padding: 9px 20px;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .navbar .nav > li > a:hover,

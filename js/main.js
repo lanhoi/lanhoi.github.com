@@ -38,11 +38,14 @@ $(document).ready(function (){
 
 // navbar affix
 $(document).ready(function (){
-	$("#nav-wrapper").height($("#navbar").outerHeight(true));
-	var pos = Math.ceil($('#navbar').offset().top) + 20;
-	$('#navbar').affix({
-    	offset: pos
-	});
+    // Only do affix on tablet and desktop
+    if ($(window).width() >= 640) {
+    	$("#nav-wrapper").height($("#navbar").outerHeight(true));
+    	var pos = Math.ceil($('#navbar').offset().top) + 20;
+    	$('#navbar').affix({
+        	offset: pos
+    	});
+    }
 });
 
 // Facebook comment
