@@ -399,6 +399,12 @@ hr.blog-divider {
     border-top: 0;
 }
 
+hr.archive-divider {
+    border-bottom: 1px dashed #5A2E2E;
+    border-top: 0;
+    width: 160px;
+}
+
 .postimage {
     margin-right: 20px;
 }
@@ -415,7 +421,9 @@ hr.blog-divider {
     margin-bottom: 15px;
 }
 
-
+h2.post-title {
+    display: inline;
+}
 
 /*------------------- FOOTER -------------------*/
 
