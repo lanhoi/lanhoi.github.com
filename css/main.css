@@ -243,9 +243,14 @@ header.main-header .brand object {
     text-align: left;
 }
 
-.menu-toggle {
-    padding: 9px 20px;
-    border-radius: 3px 3px 3px 3px;
+@media (max-width: 639px) {
+    .menu-toggle {
+        padding: 9px 20px;
+    }
+
+    .navbar .nav > li > a {
+        border-radius: 0;
+    }
 }
 
 .navbar .nav > li > a:hover,
