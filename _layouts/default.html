@@ -5,105 +5,106 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ title }}</title>
-        <meta name="description" content="{{ desc }}"/>
+		<title>{{ title }}</title>
+		<meta name="description" content="{{ desc }}"/>
 
-        <meta property="fb:app_id" content="421608437910874"/>
-        <meta property="og:site_name" content="{{ site.name }}" />
-        <meta property="og:title" content="{{ title }}" />
-        <meta property="og:description" content="{{ desc }}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <meta property="og:image" content={% if page.thumb != null %}"{{ page.thumb }}"{% else %}"{{ site.url }}/img/logo.png"{% endif %}/>
-        
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/"/>
+		<meta property="fb:app_id" content="421608437910874"/>
+		<meta property="og:site_name" content="{{ site.name }}" />
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:description" content="{{ desc }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+		<meta property="og:image" content={% if page.thumb != null %}"{{ page.thumb }}"{% else %}"{{ site.url }}/img/logo.png"{% endif %}/>
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/"/>
 
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/fonts/aptima/stylesheet.css">
-        <link rel="stylesheet" href="/css/fonts/droid-serif/stylesheet.css">
-        
-        <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        {% include google_analytics %}
-    </head>
-    <body>
-        <header class="center main-header">
-            <div class="brand">
-                <a href="/">
-                    <!--[if !IE]> -->
-                    <object type="image/svg+xml" data="/img/header.svg">
-                    <!-- <![endif]-->
-                          <img src="/img/header.png"/>
-                    <!--[if !IE]> -->
-                    </object>
-                    <!-- <![endif]-->
-                </a>
-            </div>
-            <div class="tagline container">
-                <div class="row">
-                    <div class="span8 offset2"><strong>MƯỢN RUNG CẢM THỜI GIAN</strong></div>
-                </div>
-            </div>
-        </header>
-        <div id="nav-wrapper">
-            <div class="nav-container" id="navbar">
-                    <div class="navbar container">
-                        <div class="navbar-inner">
-                            <a class="menu-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                                MENU
-                            </a>
-                            <div class="nav-collapse collapse">
-                                <ul class="nav">
-                                    <li id="home"><a href="/">TRANG CHỦ</a></li>
-                                    <li id="join"><a href="/join/">ĐẶT VÉ</a></li>
-                                    <li id="news"><a href="/news/">TIN TỨC</a></li>
-                                    <li id="press"><a href="/press/">BÁO CHÍ</a></li>
-                                    <li id="contact"><a href="/contact/">LIÊN HỆ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-        <div class="container content">
-            <!--[if lt IE 9]>
-                <p class="chromeframe text-error">
-					<span class="btn btn-danger">Cảnh báo:</span>
-                    Bạn đang dùng một trình duyệt <strong>quá cũ</strong>.
-                    Xin hãy <a href="http://browsehappy.com/">nâng cấp trình duyệt</a> hoặc
-                    <a href="http://firefox.com">tải Firefox</a>
-                    để có được trải nghiệm tốt nhất.
-                </p>
-            <![endif]-->
-            {{ content }}
-        </div> 
+		<link rel="stylesheet" href="/css/bootstrap.css">
+		<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/fonts/aptima/stylesheet.css">
+		<link rel="stylesheet" href="/css/fonts/droid-serif/stylesheet.css">
+		
+		<script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		{% include google_analytics %}
+	</head>
+	<body>
+		<header class="center main-header">
+			<div class="brand">
+				<a href="/">
+					<!--[if !IE]> -->
+					<object type="image/svg+xml" data="/img/header.svg">
+					<!-- <![endif]-->
+						  <img src="/img/header.png"/>
+					<!--[if !IE]> -->
+					</object>
+					<!-- <![endif]-->
+				</a>
+			</div>
+			<div class="tagline container">
+				<div class="row">
+					<div class="span8 offset2"><strong>MƯỢN RUNG CẢM THỜI GIAN</strong></div>
+				</div>
+			</div>
+		</header>
+		<div id="nav-wrapper">
+			<div class="nav-container" id="navbar">
+					<div class="navbar container">
+						<div class="navbar-inner">
+							<a class="menu-toggle" data-toggle="collapse" data-target=".nav-collapse">
+								MENU
+							</a>
+							<div class="nav-collapse collapse">
+								<ul class="nav">
+									<li id="home"><a href="/">TRANG CHỦ</a></li>
+									<li id="join"><a href="/join/">ĐẶT VÉ</a></li>
+									<li id="news"><a href="/news/">TIN TỨC</a></li>
+									<li id="press"><a href="/press/">BÁO CHÍ</a></li>
+									<li id="contact"><a href="/contact/">LIÊN HỆ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div id="wrap">
+			<div class="container clearfix" id="content">
+				<!--[if lt IE 9]>
+					<p class="chromeframe text-error">
+						<span class="btn btn-danger">Cảnh báo:</span>
+						Bạn đang dùng một trình duyệt <strong>quá cũ</strong>.
+						Xin hãy <a href="http://browsehappy.com/">nâng cấp trình duyệt</a> hoặc
+						<a href="http://firefox.com">tải Firefox</a>
+						để có được trải nghiệm tốt nhất.
+					</p>
+				<![endif]-->
+				{{ content }}
+			</div>
+		</div>
+		<!-- <div id="push"></div> -->
 
-        <!-- <div id="push"></div> -->
+		<footer>
+			<div class="container">
+				<div class="row-fluid footer-row">
+					<div class="span6 offset2">
+						<p><small>Lan Hoi creators &copy; 2012.</small></p>
+					</div>
+					<div class="span4">
+						<a href="/feed/"><img src="/img/rss.png"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-        <footer>
-            <div class="container">
-                <div class="row-fluid footer-row">
-                    <div class="span6 offset2">
-                        <p><small>Lan Hoi creators &copy; 2012.</small></p>
-                    </div>
-                    <div class="span4">
-                        <a href="/feed/"><img src="/img/rss.png"></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+		<div id="fb-root"></div>
 
-        <div id="fb-root"></div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="/js/vendor/bootstrap.min.js"></script>
-        <script src="/js/main.js"></script>
-    </body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+		<script src="/js/vendor/bootstrap.min.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
 </html>
