@@ -479,6 +479,7 @@ footer {
     background-color: #2A2C31;
     color: #FFFEDF;
     font-family: UTM Aptima;
+    box-shadow: 0 -3px 3px -3px #000, 0 3px 10px -5px #333 inset;
 }
 
 .footer-row {
@@ -492,6 +493,15 @@ footer {
     }
 }
 
+footer a {
+    color: #FFFEDF;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FFFEDF;
+    font-weight: bold;
+}
 
 
 /*------------------- FACEBOOK -------------------*/
