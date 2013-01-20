@@ -14,7 +14,9 @@ Khi trao tặng tượng Thần Tự Do khổng lồ cho nước Mỹ, người 
 
 Khi làm pho tượng tặng cho nước Mỹ, Bartholdi đã khéo léo giải quyết vấn đề giãn nở của kim loại qua tấm váy lòe xòe của pho tượng. Người Hà Nội lúc ấy không quan tâm đến lịch sử của pho tượng mà chỉ gọi là tượng "Bà đầm xòe".
 
+
 Cho tới nay người ta mới chỉ biết đến tượng Bà đầm xòe đặt ở vườn hoa Cửa Nam trước Cách mạng tháng Tám. Vào cuối thế kỷ XIX, trước khi người Pháp cho chuyển pho tượng này đến đây, chỗ ấy là Quảng Văn Đình, nơi triều đình nhà Nguyễn cho tụ họp mọi người đến nghe giảng về các chủ trương, thông báo của triều đình. Khi đưa tượng Bà đầm xòe sang đây, nơi này đã biến đổi. Người ta có câu ca:
+
 
 *"Nhớ Quảng Văn Đình tớ đến nghe
 
@@ -24,6 +26,7 @@ Thập điều bặt tiếng ê a giảng
 
 Choáng óc kèn tây rúc tí toe..."*
 
+
 Ít người biết rằng trước khi được chuyển đến vườn hoa Cửa Nam, tượng Đầm xòe còn có một vài lần dịch chuyển khác, và nó đã từng được đặt trên nóc Tháp Rùa.
 
 
@@ -31,13 +34,19 @@ Số là sau khi trưng bày ở Triển lãm Đấu Xảo Đông Dương, pho t
 
 
 Có ý kiến đề xuất là đặt ở chỗ ga xe điện Bờ Hồ trước đây, nay là đài phun nước trước nhà Thủy Tạ và đầu phố Hàng Đào. Nhưng một kỹ sư Pháp là Daurelle đề nghị đặt ngay trên nóc Tháp Rùa mà người Pháp gọi là Ngôi đền nhỏ (Pagodon) hay Qui Sơn Tháp (Tour de l '' ile de la Tortue). Chi tiết này được viết rất rõ trong cuốn "Bắc Kỳ xưa" (Le vieux tonkin) của Claude Bourrin, viết về xứ Bắc Kỳ trong các giai đoạn từ 1890 đến 1894 (nhà in IDEO, Hà Nội, 1941, tr. 48-49).
+
+
 Lúc ấy báo chí Pháp thảo luận rất nhiều về vị trí đặt pho tượng này. Có nên đặt nó trên nóc Tháp Rùa không? Và nếu đặt thì tượng Thần Tự Do sẽ quay mặt về hướng nào? Cuối cùng thì tượng Thần Tự Do vẫn được đặt trên nóc Tháp Rùa, mặt quay về vườn hoa Paul Bert, tức quay về tượng Lý Thái Tổ bây giờ, lưng quay về phía Nhà Thờ Lớn.
+
+
 Năm 1945, trước khi Cách mạng tháng 8 nổ ra, ngày 31/7/1945, thị trưởng Hà Nội của Chính phủ Trần Trọng Kim lúc ấy là Trần Văn Lai, có lẽ đã không biết đến ý nghĩa lịch sử của pho tượng, nên đã liệt "Bà Đầm xòe" vào số những tàn tích nô lệ của thực dân Pháp và ký lệnh cho giật đổ pho tượng này cùng một số tượng khác, trong đó có tượng Pôn Be. (Theo bản tin trên báo Đông Pháp, 2/8/1945).
+
+
 Tượng Tự Do là một công trình nghệ thuật và kiến trúc tuyệt đẹp của nước Pháp tặng cho nước Mỹ nhân dịp kỷ niệm 100 năm bản Tuyên ngôn Độc lập Hoa Kỳ. Chúng ta khó mà ngờ rằng Hà Nội đã thực sự có một phiên bản thu nhỏ của pho tượng, và nó đã từng đứng trên nóc Tháp Rùa.
 
 
 
-**Theo Nguyễn Phúc Giác Hải Vietnamnet**
+*Theo Nguyễn Phúc Giác Hải Vietnamnet*
 
 
 Nói thêm: ngoài tượng Thần Tự Do ra, Hà Nội còn có những công trình điêu khắc mang dấu ấn kiến trúc Pháp như tượng paul bert, france, tượng đài canh nông, xin được kể sau.
