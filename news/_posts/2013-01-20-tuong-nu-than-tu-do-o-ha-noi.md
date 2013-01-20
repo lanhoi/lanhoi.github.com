@@ -42,7 +42,7 @@ Năm 1945, trước khi Cách mạng tháng 8 nổ ra, ngày 31/7/1945, thị tr
 
 Tượng Tự Do là một công trình nghệ thuật và kiến trúc tuyệt đẹp của nước Pháp tặng cho nước Mỹ nhân dịp kỷ niệm 100 năm bản Tuyên ngôn Độc lập Hoa Kỳ. Chúng ta khó mà ngờ rằng Hà Nội đã thực sự có một phiên bản thu nhỏ của pho tượng, và nó đã từng đứng trên nóc Tháp Rùa.
  
-*Theo Nguyễn Phúc Giác Hải Vietnamnet*
+*- Theo Nguyễn Phúc Giác Hải Vietnamnet -*
  
 
 Nói thêm: ngoài tượng Thần Tự Do ra, Hà Nội còn có những công trình điêu khắc mang dấu ấn kiến trúc Pháp như tượng paul bert, france, tượng đài canh nông, xin được kể sau.
