@@ -16,8 +16,7 @@ Khi làm pho tượng tặng cho nước Mỹ, Bartholdi đã khéo léo giải 
 
 
 Cho tới nay người ta mới chỉ biết đến tượng Bà đầm xòe đặt ở vườn hoa Cửa Nam trước Cách mạng tháng Tám. Vào cuối thế kỷ XIX, trước khi người Pháp cho chuyển pho tượng này đến đây, chỗ ấy là Quảng Văn Đình, nơi triều đình nhà Nguyễn cho tụ họp mọi người đến nghe giảng về các chủ trương, thông báo của triều đình. Khi đưa tượng Bà đầm xòe sang đây, nơi này đã biến đổi. Người ta có câu ca:
-
-
+ 
 *"Nhớ Quảng Văn Đình tớ đến nghe
 
 Câu Kê chẳng thấy, thấy Đầm xòe
@@ -25,8 +24,7 @@ Câu Kê chẳng thấy, thấy Đầm xòe
 Thập điều bặt tiếng ê a giảng
 
 Choáng óc kèn tây rúc tí toe..."*
-
-
+ 
 Ít người biết rằng trước khi được chuyển đến vườn hoa Cửa Nam, tượng Đầm xòe còn có một vài lần dịch chuyển khác, và nó đã từng được đặt trên nóc Tháp Rùa.
 
 
@@ -43,10 +41,8 @@ Năm 1945, trước khi Cách mạng tháng 8 nổ ra, ngày 31/7/1945, thị tr
 
 
 Tượng Tự Do là một công trình nghệ thuật và kiến trúc tuyệt đẹp của nước Pháp tặng cho nước Mỹ nhân dịp kỷ niệm 100 năm bản Tuyên ngôn Độc lập Hoa Kỳ. Chúng ta khó mà ngờ rằng Hà Nội đã thực sự có một phiên bản thu nhỏ của pho tượng, và nó đã từng đứng trên nóc Tháp Rùa.
-
-
-
+ 
 *Theo Nguyễn Phúc Giác Hải Vietnamnet*
-
+ 
 
 Nói thêm: ngoài tượng Thần Tự Do ra, Hà Nội còn có những công trình điêu khắc mang dấu ấn kiến trúc Pháp như tượng paul bert, france, tượng đài canh nông, xin được kể sau.
