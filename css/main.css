@@ -475,13 +475,14 @@ h2.post-title {
 
 
 footer {
-    height: 110px;
+    height: 120px;
     background-color: #2A2C31;
     color: #FFFEDF;
+    font-family: UTM Aptima;
 }
 
 .footer-row {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 @media (max-width: 767px) {

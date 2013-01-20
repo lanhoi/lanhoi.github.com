@@ -31,14 +31,14 @@
 			<div class="errorbox-good">
 				<div class="ss-item ss-item-required ss-text">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_0">Họ đệm <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_0">Nếu tên đầy đủ của bạn là Đinh Thảo Linh thì họ đêm của bạn là Đinh Thảo</label> <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
+						<label class="ss-q-title" for="entry_0">Họ đệm <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_0">Nếu tên đầy đủ của bạn là Nguyễn Văn A thì họ đêm của bạn là Nguyễn Văn</label> <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
 					</div>
 				</div>
 			</div><br>
 			<div class="errorbox-good">
 				<div class="ss-item ss-item-required ss-text">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_1">Tên <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_1">Nếu tên đầy đủ của bạn là Đinh Thảo Linh thì tên của bạn là Linh</label> <input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1">
+						<label class="ss-q-title" for="entry_1">Tên <span class="ss-required-asterisk">*</span></label> <label class="ss-q-help" for="entry_1">Nếu tên đầy đủ của bạn là Nguyễn Văn A thì tên của bạn là A</label> <input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1">
 					</div>
 				</div>
 			</div><br>
