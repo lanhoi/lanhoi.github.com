@@ -13,4 +13,4 @@ Nhắc tới kiến trúc Pháp, không ít người nghĩ đến kiến trúc t
 Trường THPT Chu Văn An ban đầu có tên gọi là Trường Lycée du Protectorat còn gọi là trường trung học bảo hộ, trường Bưởi ngày xưa. Hoàn thành từ năm 1908, ban đầu chỉ là trường Collège du Protectorat (Tương đương trường trung học cơ sở hiện nay) và được nâng cấp thành trường Lycée (Trung học phổ thông) vào năm 1931.
 
 
-Nguồn ảnh: THPT Chất lượng cao chuyên chuẩn trọng điểm Quốc gia Chu Văn An
+*Nguồn ảnh: THPT Chất lượng cao chuyên chuẩn trọng điểm Quốc gia Chu Văn An*
