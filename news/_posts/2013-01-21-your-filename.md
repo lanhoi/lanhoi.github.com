@@ -1,18 +1,21 @@
 ---
 layout: post
-title: "THPT Trần Phú còn được gọi là Trường Albert Sarraut xưa."
-description: "Hình khối không gian của khối nhà học được bố trí theo dạng đăng đối nghiêm ngặt với khối nhà hình chữ U có hai cánh bao lấy sân trước. "
-thumb: "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/393164_400772036675378_1158189008_n.jpg"
-lead: "Hình khối không gian của khối nhà học được bố trí theo dạng đăng đối nghiêm ngặt với khối nhà hình chữ U có hai cánh bao lấy sân trước. "
+title: "Nét kiến trúc Pháp trong lòng Hà Nội - THPT Phan Đình Phùng"
+description: "Bao nhiêu người nhận ra đây là một trong những ngôi trường nổi tiếng ở Hà Nội ngày nay, với bề dày thành tích cũng như hình ảnh những cô nữ sinh trung học xinh xắn, thướt tha trong tà áo dài,... "
+thumb: "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/541747_403046703114578_1578280494_n.jpg"
+lead: "Bao nhiêu người nhận ra đây là một trong những ngôi trường nổi tiếng ở Hà Nội ngày nay, với bề dày thành tích cũng như hình ảnh những cô nữ sinh trung học xinh xắn, thướt tha trong tà áo dài,... "
 published: true
 
 ---
 
-Khối trung tâm được nhấn mạnh bởi chiều cao nổi trội với tháp đồng hồ ở giữa, các cửa sổ dạng cuốn vòm với bán kính cong nhỏ dần theo phương đứng, dãy cửa thông gió trang trí bằng gạch hoa kết hợp với hàng công son bằng gỗ tiện đõ bờ mái làm tăng thêm vẻ kỳ thú của toà nhà, tháp đồng hồ được trang trí cầu kỳ tạo ra điểm nhấn cho khối trung tâm. 
+Tiếp theo loạt hình ảnh về kiến trúc trường học thời Pháp, chúng tôi xin tiếp tục giới thiệu về Trường École Normale Supérieur Đỗ Hữu Vị (trường THPT Phan Đình Phùng ngày nay) thành lập năm 1923 là một trường học lớn thời bấy giờ, về tầm vóc có thể so sánh với trường Bưởi, trường Đồng Khánh (trường THCS Trưng Vương ngày nay) và đều là những trường dành cho học sinh người Việt.
 
-Các khối phòng học ở hai phía có phong cách trang trí thống nhất với khối trung tâm nhưng có độ cao thấp hơn, cửa sổ cuốn vòm với bán kính nhỏ dần theo chiều đứng, mái được đưa ra khỏi tường khá nhiều và được đõ bởi hệ công son gỗ, các chi tiết trang trí bằng gạch trần tuy không cầu kỳ nhưng có tính thẩm mỹ cao.
+Trường nằm trên một khuôn viên rộng rãi được giới hạn bởi các phố Carnot (phố Phan Đình Phùng), Đỗ Hữu Vị (phố Cửa Bắc) và Grand Bouddha (Phố Quán Thánh). Nhà học chính là một tòa nhà ba tầng bố cục gần đăng đối. Mặt bằng các tầng bố trí như nhau theo kiểu hàng lang bên rộng 2,5m bao gồm cầu thang chính bằng gỗ rộng ở giữa, mỗi bên bố trí bốn lớp học, đầu hồi phía bên trái là khu vệ sinh, hồi phải bố trí thang phụ. Hình thức kiến trúc của tòa nhà gần giống với kiểu kiến trúc tòa nhà học xây những năm 1920 ở trường Bưởi nên cũng khá đẹp. Hàng lang tầng một được mở rộng ra sân trường bởi hành lang cuốn vòm trang trí khá cấu kỳ, hành lang các tầng 2 và 3 có cửa sổ hai lớp. Hình thức trang trí mặt đứng tương đối phong phú bao gồm các mô típ trang trí bằng vữa đắp kết hợp với cách trang trí bằng gạch trần phía trên cửa sổ tầng 3 kết hợp với hệ sê nô bê tông mở rộng tạo ra sự kết thúc rõ rệt của tòa nhà theo phương đứng. Nhà thí nghiệm và xưởng trường nằm vuông góc và được nối với nhà học bởi một hành lang cầu mái ngói. Đây là một ngôi nhà được cấu trúc khá độc đáo với hành lang bên rộng 2,0m quay vào sân trường có cửa sổ hai lớp, giữa hành lang và không gian bên trong chỉ được phân định tương đối bằng những cuốn vòm, mặt đứng quay ra phố Đỗ Hữu Vị được trang trí bằng hệ thống cửa sổ cao và các công xon gõ đỡ mái ngói khá đẹp nhưng nay đã xuống cấp trầm trọng.
+
+Khối nhà văn phòng của trường được bố trí trong một biệt thự hai tầng quay ra phố Carnot. Đây thực chất là một nhà làm việc kiểu hành lang giữa xây dựng theo phong cách biệt thực địa phương Pháp khá xinh xắn nhưng cũng đã bị xuống cấp nặng nề và hiện đang trong quá trình tu bổ. 
 
 
-Mặc dù mang phong cách kiến trúc Địa phương Pháp, nhưng các kiến trúc sư – tác giả toà nhà đã có những biến đổi về mặt bằng – không gian cho phù hợp điều kiện khí hậu nhiệt đới Hà Nội với kiểu bố cục hành lang rộng có cửa sổ bao quanh các lớp học làm cho các phòng học luôn thoáng mát về mùa hè và ấm áp về mùa đông. 
 
-Tầng áp mái với hàng cửa thông gió trang trí bằng gạch hoa vừa có tính cách nhiệt tốt, vừa mang lại tính thẩm mỹ cao cho toà nhà. Nhìn chung thì đây là công trình công cộng phong cách Địa phương Pháp hầu như duy nhất ở Hà Nội, có “bóng dáng” nhiệt đới hoá, lại được nằm trong hệ thống cây xanh đặc trưng Hà Nội nên tạo ra cảm giác gần gũi với môi trường đô thị Thủ đô.
+
+
+*Hình ảnh: Dãy nhà xưa của Trường THPT Phan Đình Phùng*
