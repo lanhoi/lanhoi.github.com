@@ -4,7 +4,7 @@ title: "Tượng Nữ Thần Tự Do ở Hà Nội"
 description: "Có lẽ ít người biết rằng Hà Nội cũng đã từng có một tượng Thần Tự Do giống hệt như tượng Thần Tự Do ở New York (Mỹ) nhưng với kích thước nhỏ hơn."
 thumb: "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/553101_399521633467085_407199099_n.jpg"
 lead: "Có lẽ ít người biết rằng Hà Nội cũng đã từng có một tượng Thần Tự Do giống hệt như tượng Thần Tự Do ở New York (Mỹ) nhưng với kích thước nhỏ hơn."
-published: true
+published: false
 
 ---
 
