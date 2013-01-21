@@ -152,7 +152,7 @@
 			<div class="errorbox-good">
 				<div class="ss-item ss-checkbox">
 					<div class="ss-form-entry">
-						<label class="ss-q-title" for="entry_17">Bạn đã tham dự chương trình Lần Hồi 1113 chưa?</label>
+						<label class="ss-q-title" for="entry_17">Bạn đã tham dự chương trình Lần Hồi 11/13 chưa?</label>
 						<ul class="ss-choices">
 							<li class="ss-choice-item">
 								<label class="ss-choice-label"><input type="checkbox" name="entry.17.group" value="Đã tham dự" class="ss-q-checkbox" id="group_17_1"> Đã tham dự</label>
