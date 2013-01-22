@@ -13,6 +13,10 @@
 	font-style: italic;
 	font-size: 80%;
 }
+
+#entry_18 {
+	width: auto;
+}
 </style>
 
 <div class="ss-form-container">
@@ -161,6 +165,14 @@
 					</div>
 				</div>
 			</div><br>
+
+			<div class="errorbox-good">
+			<div class="ss-item  ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_18">Nh&#7919;ng th&#7855;c m&#7855;c, g&oacute;p &yacute; c&#7911;a b&#7841;n v&#7899;i ch&#432;&#417;ng tr&igrave;nh (n&#7871;u c&oacute;):
+			</label>
+			<label class="ss-q-help" for="entry_18"></label>
+			<textarea name="entry.18.single" rows="8" cols="75" class="ss-q-long" id="entry_18"></textarea></div></div></div>
+			<br>
+
 			<input type="hidden" name="pageNumber" value="0"> <input type="hidden" name="backupCache" value="">
 			<div class="ss-item ss-navigate">
 				<div class="ss-form-entry">
