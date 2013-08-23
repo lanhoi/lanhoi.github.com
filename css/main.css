@@ -224,11 +224,15 @@ header.main-header .brand object {
     .navbar-inner .nav-collapse.collapse {
         line-height: 0;
     }
+
+    .navbar .nav > li {
+        display: inline-block;
+        float: none;
+        /*margin-left: 10px;*/
+    }
 }
 
-.navbar .nav > li {
-    margin-left: 10px;
-}
+
 
 .navbar .nav > li > a, .menu-toggle {
     float: none;
